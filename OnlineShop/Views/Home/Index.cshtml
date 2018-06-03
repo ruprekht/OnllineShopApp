@@ -3,36 +3,9 @@
 @{
     ViewBag.Title = "Items";
 }
-@*<div class="container">
-    <h3>It the table you can see randomly selected 10 items from the DataBase. Just refresh the page to see the new set.</h3>
-
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th class="col-xs-3">Name</th>
-                <th class="col-xs-7">Description</th>
-                <th class="col-xs-2">Price</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-
-            @foreach (OnlineShop.Models.DataContracts.ItemDTO item in ViewBag.Items)
-            {
-                <tr>
-                    <td>@item.Name</td>
-                    <td>@Html.Raw(@item.Description)</td>
-                    <td>@item.Price</td>
-                    <td><a href="/Home/Details/@item.ExternalId" class="btn btn-info" role="button">Detailes</a></td>
-                </tr>
-            }
-
-        </tbody>
-    </table>
-</div>*@
 
 <div class="container">
-    <h1>It the table you can see randomly selected 10 items from the DataBase. Just refresh the page to see the new set.</h1>
+    <h1>In the table you can see randomly selected 10 items from the DataBase. Just refresh the page to see the new set.</h1>
     <div>
         <ul class="responsive-table">
             <li class="table-header">
