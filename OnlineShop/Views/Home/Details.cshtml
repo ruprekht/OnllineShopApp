@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+<div class="container">
+    @*<button type="button" class="btn btn-info" aria-label="Left Align" onclick="goBack()">
+        <span class="glyphicon glyphicon-backward" aria-hidden="true"> Back</span>
+    </button>*@
+    <div class="pull-left">
+        <i class="action-btn fa fa-arrow-circle-left fa-3x" onclick="goBack()"></i>
+    </div>
+
+    <div>
+        <div class="col-xs-12">
+            <div class="item-details-title">
+                <h3>@ViewBag.Item.Name</h3>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <img src="@ViewBag.Item.Image" alt="https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg">
+            </div>
+            <div class="col-xs-6">
+                <div>
+                    <h4>@Html.Raw(@ViewBag.Item.Description)</h4>
+                </div>
+                <div class="item-details-body">
+                    <h3>Price: @ViewBag.Price.Value UAH</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <h3>Price History</h3>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th class="col-xs-6">Date</th>
+                <th class="col-xs-6">Price, UAH</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var price in ViewBag.History)
+            {
+                <tr>
+                    <td>@price.DateTime.ToString("MMM dd,yyyy")</td>
+                    <td>@price.Value</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+
+<script type="text/javascript">
+    function goBack() {
+        window.history.back()
+    }
+</script>
+
+

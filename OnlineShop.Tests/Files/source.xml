@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<price>
+  <items>
+    <item>
+      <vendor>Banquet</vendor>
+      <id>1</id>
+      <categoryId>494</categoryId>
+      <name>Тарелка Banquet Rosalia (25 см)</name>
+      <priceRUAH>30.26</priceRUAH>
+      <code>UM59RMT241</code>
+      <description>
+        <strong>СРОК ДОСТАВКИ: 2-3 ДНЯ</strong>
+          <strong>ПРОИЗВОДИТЕЛЬ: BANQUET</strong> / <nobr>СТРАНА ПРОИЗВОДИТЕЛЬ: ЧЕХИЯ</nobr>
+        </description>
+      <url>https://napoli.ua//prod1/</url>
+      <stock>На складе</stock>
+      <image>
+        https://napoli.ua/1-home_default/tarelka-25-sm-rosalia.jpg
+      </image>
+    </item>
+    <item>
+      <vendor>Pasabahce</vendor>
+      <id>7</id>
+      <categoryId>504</categoryId>
+      <name>Кувшин Pasabahce Bistro (1 л)</name>
+      <priceRUAH>87.98</priceRUAH>
+      <code>UM43944</code>
+      <description>
+        <strong>СРОК ДОСТАВКИ: 2-3 ДНЯ</strong>
+          <strong>ПРОИЗВОДИТЕЛЬ: PASABAHCE</strong> / <nobr>ОБЪЁМ: 1</nobr> / <nobr>СТРАНА ПРОИЗВОДИТЕЛЬ: ТУРЦИЯ</nobr>
+        </description>
+      <url>https://napoli.ua//prod7/</url>
+      <stock>На складе</stock>
+      <image>
+        https://napoli.ua/49553-home_default/kuvshin-bistro-1l.jpg
+      </image>
+    </item>
+    <item>
+      <vendor>Pasabahce</vendor>
+      <id>8</id>
+      <categoryId>492</categoryId>
+      <name>Набор стаканов Pasabahce Tango (275 ml, 6 шт.)</name>
+      <priceRUAH>129.48</priceRUAH>
+      <code>UM42942Т</code>
+      <description>
+        <strong>СРОК ДОСТАВКИ: 2-3 ДНЯ</strong>
+        <strong>ПРОИЗВОДИТЕЛЬ: PASABAHCE</strong> / <nobr>ОБЪЁМ: 275 МЛ</nobr> / <nobr>СТРАНА ПРОИЗВОДИТЕЛЬ: ТУРЦИЯ</nobr>
+      </description>
+      <url>https://napoli.ua//prod8/</url>
+      <stock>На складе</stock>
+      <image>
+        https://napoli.ua/7-home_default/nabor-stakanov-275-ml-6-sht-tango.jpg
+      </image>
+    </item>
+  </items>
+</price>
